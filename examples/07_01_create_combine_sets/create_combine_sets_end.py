@@ -13,6 +13,9 @@ family = set(['Garry', 'Landon', 'Larry', 'Mark',
 
 if __name__ == '__main__':
 
+    # this import statement is not required here, but is included for completeness
+    from create_combine_sets_begin import college, coworker, family
+
     # display all of the items in the college set
     print(college)
 
@@ -25,14 +28,7 @@ if __name__ == '__main__':
     friends = college.union(coworker, family)
 
     # print out friends in each set
-    print('I have {} college buddies:'.format(len(college)))
-    print(college)
-
-    print('I have {} coworkers:'.format(len(coworker)))
-    print(coworker)
-
-    print('I have {} family friends:'.format(len(family)))
-    print(family)
-
-    print('I have {} total friends:'.format(len(friends)))
-    print(friends)
+    print(f'I have {len(college)} college buddies named:\n{college}\n')
+    print(f'I have {len(coworker)} coworkers named:\n{coworker}\n')
+    print(f'I have {len(family)} family friends named:\n{family}\n')
+    print(f'I have {len(friends)} total friends named:\n{friends}\n')

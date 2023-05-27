@@ -7,6 +7,9 @@ invite = set(['Nestor', 'Amanda', 'Olivia'])
 
 if __name__ == '__main__':
 
+    # this import statement is not required here, but is included for completeness
+    from add_remove_sets_begin import invite
+
     # invite Verne
     print('Verne' in invite)
     invite.add('Verne')

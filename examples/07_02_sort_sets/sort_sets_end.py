@@ -24,17 +24,17 @@ olivia = set(['Jim', 'Amanda', 'Verne', 'Nestor'])
 
 if __name__ == '__main__':
 
+    # this import statement is not required here, but is included for completeness
+    from sort_sets_begin import friends, zipcode, munchkins, olivia
+
     # choose just the friends who live nearby
     local = friends.intersection(zipcode)
-    print('I have {} local friends:'.format(len(local)))
-    print(local)
+    print(f'I have {len(local)} local friends named:\n{local}\n')
 
     # remove the Munchkin players
     invite = local.difference(munchkins)
-    print('I have {} friends to invite:'.format(len(invite)))
-    print(invite)
+    print(f'I have {len(invite)} friends to invite named:\n{invite}\n')
 
     # revise the friends to invite set
     invite = invite.symmetric_difference(olivia)
-    print('My revise set has {} friends:'.format(len(invite)))
-    print(invite)
+    print(f'My revised set has {len(invite)} friends named:\n{invite}\n')
