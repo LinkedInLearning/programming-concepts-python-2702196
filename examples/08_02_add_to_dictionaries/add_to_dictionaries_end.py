@@ -15,6 +15,9 @@ rolodex = {'Aaron': 5556069,
 
 if __name__ == '__main__':
 
+    # this import statement is not required here, but is included for completeness
+    from add_to_dictionaries_begin import rolodex
+
     # look for Amanda (not in rolodex)
     # print(rolodex['Amanda']) # causes an error
 

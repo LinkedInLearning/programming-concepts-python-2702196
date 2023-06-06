@@ -15,6 +15,9 @@ rolodex = {'Aaron': 5556069,
 
 if __name__ == '__main__':
 
+    # this import statement is not required here, but is included for completeness
+    from dictionaries_begin import rolodex
+
     # look up Verne's number
     print(rolodex['Verne'])
 
