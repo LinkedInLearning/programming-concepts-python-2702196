@@ -1,8 +1,6 @@
 """ Overloading a Circuit Breaker """
 
-
 class CircuitBreaker:
-
     def __init__(self, max_amps):
         self.capacity = max_amps  # max capacity in amps
         self.load = 0             # present load in amps
@@ -15,16 +13,11 @@ class CircuitBreaker:
         else:
             self.load += amps
 
-
 # create a 20A circuit breaker
 cb = CircuitBreaker(20)
 
-""" Demo Commands (with  print() functions to show output when run as main script) """
-
+# Demo Commands (with  print() functions to show output when run as main script)
 if __name__ == '__main__':
-
-    # this import statement is not required here, but is included for completeness
-    from validate_input_end import CircuitBreaker, cb
 
     # connect a valid load
     print(cb.load)

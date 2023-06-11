@@ -3,12 +3,8 @@
 # revised set of friends to invite
 invite = set(['Nestor', 'Amanda', 'Olivia'])
 
-""" Demo Commands (with  print() functions to show output when run as main script) """
-
+# Demo Commands (with  print() functions to show output when run as main script)
 if __name__ == '__main__':
-
-    # this import statement is not required here, but is included for completeness
-    from add_remove_sets_begin import invite
 
     # invite Verne
     print('Verne' in invite)

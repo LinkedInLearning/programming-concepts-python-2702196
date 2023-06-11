@@ -1,5 +1,7 @@
 """ Parking Cars in a List """
 
+# Demo Commands(with print() functions to show output when run as main script)
+
 # create the initial list of cars
 row = ['Ford', 'Audi', 'BMW', 'Lexus']
 

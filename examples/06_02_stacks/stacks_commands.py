@@ -1,5 +1,6 @@
 """ A Stack of Bills to Pay """
-""" Demo Commands (with  print() functions to show output when run as main script) """
+
+# Demo Commands (with  print() functions to show output when run as main script)
 
 # create a list to use as the stack
 stack = list()

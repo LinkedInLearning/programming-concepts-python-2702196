@@ -1,6 +1,5 @@
 """ I'll Have the Special! """
 
-
 def order_special(day):
     match day:
         case 'Sunday':

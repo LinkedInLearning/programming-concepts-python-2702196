@@ -20,12 +20,8 @@ munchkins = set(['Steve', 'Jackson', 'Frank', 'Bill',
 # set of Olivia's friends
 olivia = set(['Jim', 'Amanda', 'Verne', 'Nestor'])
 
-""" Demo Commands (with  print() functions to show output when run as main script) """
-
+# Demo Commands (with  print() functions to show output when run as main script)
 if __name__ == '__main__':
-
-    # this import statement is not required here, but is included for completeness
-    from sort_sets_begin import friends, zipcode, munchkins, olivia
 
     # choose just the friends who live nearby
     local = friends.intersection(zipcode)

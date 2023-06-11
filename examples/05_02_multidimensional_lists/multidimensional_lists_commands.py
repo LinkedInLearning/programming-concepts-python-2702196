@@ -16,11 +16,7 @@ lot_3d = [[['Telsa', 'Fiat', 'BMW'],  # 0th floor
            ['Volkswagen']]]
 
 """ Demo Commands (with  print() functions to show output when run as main script) """
-
 if __name__ == '__main__':
-
-    # this import statement is not required here, but is included for completeness
-    from multidimensional_lists_begin import lot_2d, lot_3d
 
     # indexing 2D lists
     print(lot_2d)        # 2D list of parking lot

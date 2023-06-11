@@ -1,5 +1,6 @@
 """ A Queue of Groceries to Put Away """
-""" Demo Commands (with  print() functions to show output when run as main script) """
+
+# Demo Commands (with  print() functions to show output when run as main script)
 
 # create a new queue object
 import queue

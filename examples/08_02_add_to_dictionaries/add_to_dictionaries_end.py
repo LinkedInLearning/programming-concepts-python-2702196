@@ -11,12 +11,8 @@ rolodex = {'Aaron': 5556069,
            'Olivia': 5556397,
            'Verne': 5555309}
 
-""" Demo Commands(with print() functions to show output when run as main script) """
-
+# Demo Commands(with print() functions to show output when run as main script)
 if __name__ == '__main__':
-
-    # this import statement is not required here, but is included for completeness
-    from add_to_dictionaries_begin import rolodex
 
     # look for Amanda (not in rolodex)
     # print(rolodex['Amanda']) # causes an error

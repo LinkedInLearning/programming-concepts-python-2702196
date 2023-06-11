@@ -9,12 +9,8 @@ coworker = set(['Aaron', 'Bill', 'Brandon', 'David',
 family = set(['Garry', 'Landon', 'Larry', 'Mark',
               'Olivia', 'Katy', 'Rae', 'Tom'])
 
-""" Demo Commands (with  print() functions to show output when run as main script) """
-
+# Demo Commands (with  print() functions to show output when run as main script)
 if __name__ == '__main__':
-
-    # this import statement is not required here, but is included for completeness
-    from create_combine_sets_begin import college, coworker, family
 
     # display all of the items in the college set
     print(college)
