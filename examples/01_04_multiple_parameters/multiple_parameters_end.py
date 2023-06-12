@@ -27,6 +27,5 @@ def make_fancy_omelette(*ingredients):
 barron_breakfast = make_omelette('bacon')
 olivia_breakfast = make_fancy_omelette('sausage', 'onion', 'pepper', 'spinach',
                                        'mushroom', 'tomato', 'goat cheese')
-
 print(f'Barron is having {barron_breakfast}\n')
 print(f'Olivia is having {olivia_breakfast}\n')

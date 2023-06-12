@@ -21,6 +21,5 @@ def make_pancake():
 # make breakfast for two
 barron_breakfast = make_omelette('bacon')
 olivia_breakfast = make_omelette('spam')
-
 print(f'Barron is having {barron_breakfast}\n')
 print(f'Olivia is having {olivia_breakfast}\n')

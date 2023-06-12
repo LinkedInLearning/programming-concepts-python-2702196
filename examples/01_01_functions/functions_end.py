@@ -12,6 +12,5 @@ def make_omelette():
 # make breakfast for two
 barron_breakfast = make_omelette()
 olivia_breakfast = make_omelette()
-
 print(f'Barron is having {barron_breakfast}\n')
 print(f'Olivia is having {olivia_breakfast}\n')
