@@ -18,15 +18,8 @@ def make_pancake():
     pancake = 'a delicious pancake'
     return pancake
 
-def make_fancy_omelette(*ingredients):
-    mix_and_cook()
-    omelette = f'a fancy omelette with {len(ingredients)} ingredients'
-    return omelette
-
 # make breakfast for two
 barron_breakfast = make_omelette('bacon')
-olivia_breakfast = make_fancy_omelette('sausage', 'onion', 'pepper', 'spinach',
-                                       'mushroom', 'tomato', 'goat cheese')
-
+olivia_breakfast = make_omelette('spam')
 print(f'Barron is having {barron_breakfast}\n')
 print(f'Olivia is having {olivia_breakfast}\n')

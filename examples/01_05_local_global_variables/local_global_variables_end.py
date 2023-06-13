@@ -22,11 +22,6 @@ def make_pancake():
     pancake = f'a {cheese} pancake'
     return pancake
 
-def make_fancy_omelette(*ingredients):
-    mix_and_cook()
-    omelette = f'a fancy omelette with {len(ingredients)} ingredients'
-    return omelette
-
 # make breakfast for two
 print(f'*** cheese is {cheese} ***\n') #### NOTE TO SELF: Make omelette first, then swap order
 barron_breakfast = make_pancake()
