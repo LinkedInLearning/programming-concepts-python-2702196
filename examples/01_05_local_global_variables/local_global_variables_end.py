@@ -23,11 +23,11 @@ def make_pancake():
     return pancake
 
 # make breakfast for two
-print(f'*** cheese is {cheese} ***\n') #### NOTE TO SELF: Make omelette first, then swap order
-barron_breakfast = make_pancake()
-print(f'*** cheese is {cheese} ***\n')
-olivia_breakfast = make_omelette()
-print(f'*** cheese is {cheese} ***\n')
+print(f'*** global cheese is {cheese} ***\n')
+barron_breakfast = make_omelette()
+print(f'*** global cheese is {cheese} ***\n')
+olivia_breakfast = make_pancake()
+print(f'*** global cheese is {cheese} ***\n')
 
 print(f'Barron is having {barron_breakfast}\n')
 print(f'Olivia is having {olivia_breakfast}\n')
