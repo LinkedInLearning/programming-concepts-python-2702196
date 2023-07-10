@@ -7,6 +7,3 @@ class CircuitBreaker:
 
     def connect(self, amps):
         self.load += amps
-
-# create a 20A circuit breaker
-cb = CircuitBreaker(20)

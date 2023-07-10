@@ -14,3 +14,8 @@ def order_special(day):
             return 'bbq chicken pizza'
         case _:
             print(f'There is no {day} special.')
+            return None
+
+today = 'Christmas'
+special = order_special(today)
+print(f'\nToday is {today}, and the special is {special}.\n')

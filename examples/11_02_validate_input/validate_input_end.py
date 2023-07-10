@@ -13,32 +13,41 @@ class CircuitBreaker:
         else:
             self.load += amps
 
-# create a 20A circuit breaker
-cb = CircuitBreaker(20)
 
 # Demo Commands (with  print() functions to show output when run as main script)
 if __name__ == '__main__':
 
-    # connect a valid load
-    print(cb.load)
-    try:
-        cb.connect(12)  # executes without error
-    except Exception as e:
-        print(e)
+    # create a 20A circuit breaker
+    cb = CircuitBreaker(20)
+    print(cb.capacity)
     print(cb.load)
 
-    # connect an oversized load
-    print(cb.load)
-    try:
-        cb.connect(20)  # causes an error
-    except Exception as e:
-        print(e)
+    # connect a few devices
+    cb.connect(12) # vacuum cleaner
+    cb.connect(7)  # stereo
+    cb.connect(10) # dishwasher
     print(cb.load)
 
-    # connect a negative load
+    # After making changes:
+    #   1. exit() current session
+    #   2. restart Python
+    #   3. import updated CircuitBreaker class
+
+    # create a new 20A circuit breaker
+    cb = CircuitBreaker(20)
     print(cb.load)
-    try:
-        cb.connect(-20)  # causes an error
-    except Exception as e:
-        print(e)
+
+    # connect devices
+    cb.connect(12)
     print(cb.load)
+    # cb.connect(15) # raises an exception
+    # cb.connect(-30) # raises an exception
+
+    # After making changes:
+    #   1. exit() current session
+    #   2. restart Python
+    #   3. import updated CircuitBreaker class
+
+    # connect devices
+    # cb.connect(35) # raises an exception
+    # cb.connect(-1) # raises an exception

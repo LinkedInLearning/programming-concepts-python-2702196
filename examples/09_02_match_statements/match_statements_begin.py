@@ -16,3 +16,7 @@ def order_special(day):
             return 'sausage pizza'
         case 'Saturday':
             return 'Hawaiian pizza'
+
+today = 'Tuesday'
+special = order_special(today)
+print(f'\nToday is {today}, and the special is {special}.\n')
