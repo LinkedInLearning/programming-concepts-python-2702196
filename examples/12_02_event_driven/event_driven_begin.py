@@ -10,10 +10,9 @@ def alarm():  # handler for when the alarm goes off
 
 def doorbell():  # handler for when the doorbell rings
     print('Ding Dong!')
-   # time.sleep(5)
+    # time.sleep(5)
     print('Opening the Door to get the pizza.\n')
-  # loop.stop()
-
+    # loop.stop()
 
 def phonecall():  # handler for when the phone rings
     print('Ring Ring!')
