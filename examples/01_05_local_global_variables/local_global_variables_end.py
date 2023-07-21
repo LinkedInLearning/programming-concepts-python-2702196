@@ -24,9 +24,9 @@ def make_pancake():
 
 # make breakfast for two
 print(f'*** global cheese is {cheese} ***\n')
-barron_breakfast = make_omelette()
+barron_breakfast = make_pancake()
 print(f'*** global cheese is {cheese} ***\n')
-olivia_breakfast = make_pancake()
+olivia_breakfast = make_omelette()
 print(f'*** global cheese is {cheese} ***\n')
 
 print(f'Barron is having {barron_breakfast}\n')
