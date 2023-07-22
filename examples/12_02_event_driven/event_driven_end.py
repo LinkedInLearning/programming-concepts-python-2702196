@@ -10,13 +10,13 @@ def alarm():  # handler for when the alarm goes off
 
 def doorbell():  # handler for when the doorbell rings
     print('Ding Dong!')
-    time.sleep(5)
-    print('Opening the Door to get the pizza.\n')
+    time.sleep(3)
+    print('Opening the door... "Thanks for bringing the pizza!"\n')
     loop.stop()
 
 def phonecall():  # handler for when the phone rings
     print('Ring Ring!')
-    print('Answering the phone.\n')
+    print('Answering the phone... "Hello! Who is this?"\n')
 
 loop = asyncio.get_event_loop()
 loop.call_later(1, alarm)      # schedule initial alarm event
